@@ -5,15 +5,19 @@ Make sure you have node and npm installed in your system. Use NVM or VOLTA to do
 
 `https://pnpm.io/installation`
 
-- install the dependencicies
+- install the dependencies
 
 `pnpm install`
 
 ### To build the project
 
 - pnpm build
-- node 
+- node src/index.js
 
 ### To run tests
 
 - pnpm test
+
+### To execute the project without building to javascript
+
+- pnpm dev
